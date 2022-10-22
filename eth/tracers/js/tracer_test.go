@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/core/state"
+	"github.com/GittyGitGetGud/bsc/core/vm"
+	"github.com/GittyGitGetGud/bsc/eth/tracers"
+	"github.com/GittyGitGetGud/bsc/params"
 )
 
 type account struct{}

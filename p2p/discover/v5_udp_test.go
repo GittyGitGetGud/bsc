@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v5wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/GittyGitGetGud/bsc/internal/testlog"
+	"github.com/GittyGitGetGud/bsc/log"
+	"github.com/GittyGitGetGud/bsc/p2p/discover/v5wire"
+	"github.com/GittyGitGetGud/bsc/p2p/enode"
+	"github.com/GittyGitGetGud/bsc/p2p/enr"
+	"github.com/GittyGitGetGud/bsc/rlp"
 )
 
 // Real sockets, real crypto: this test checks end-to-end connectivity for UDPv5.

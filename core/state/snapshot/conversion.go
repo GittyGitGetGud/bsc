@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/gopool"
+	"github.com/GittyGitGetGud/bsc/common/gopool"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/core/rawdb"
+	"github.com/GittyGitGetGud/bsc/ethdb"
+	"github.com/GittyGitGetGud/bsc/log"
+	"github.com/GittyGitGetGud/bsc/rlp"
+	"github.com/GittyGitGetGud/bsc/trie"
 )
 
 // trieKV represents a trie key-value pair

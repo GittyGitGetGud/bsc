@@ -3,7 +3,7 @@ package state
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/GittyGitGetGud/bsc/common"
 )
 
 // sharedPool is used to store maps of originStorage of stateObjects

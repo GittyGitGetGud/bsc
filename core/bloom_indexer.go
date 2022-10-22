@@ -20,12 +20,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/common/bitutil"
+	"github.com/GittyGitGetGud/bsc/core/bloombits"
+	"github.com/GittyGitGetGud/bsc/core/rawdb"
+	"github.com/GittyGitGetGud/bsc/core/types"
+	"github.com/GittyGitGetGud/bsc/ethdb"
 )
 
 const (

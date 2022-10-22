@@ -16,7 +16,7 @@
 
 package beacon
 
-import "github.com/ethereum/go-ethereum/rpc"
+import "github.com/GittyGitGetGud/bsc/rpc"
 
 var (
 	VALID              = GenericStringResponse{"VALID"}

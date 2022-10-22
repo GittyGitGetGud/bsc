@@ -9,11 +9,11 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/core/types"
+	"github.com/GittyGitGetGud/bsc/event"
+	"github.com/GittyGitGetGud/bsc/log"
+	"github.com/GittyGitGetGud/bsc/metrics"
 )
 
 const (

@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/core/rawdb"
+	"github.com/GittyGitGetGud/bsc/ethdb"
+	"github.com/GittyGitGetGud/bsc/log"
+	"github.com/GittyGitGetGud/bsc/metrics"
+	"github.com/GittyGitGetGud/bsc/rlp"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 var (

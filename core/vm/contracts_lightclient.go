@@ -8,8 +8,8 @@ import (
 	"github.com/tendermint/tendermint/crypto/merkle"
 	cmn "github.com/tendermint/tendermint/libs/common"
 
-	"github.com/ethereum/go-ethereum/core/vm/lightclient"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/GittyGitGetGud/bsc/core/vm/lightclient"
+	"github.com/GittyGitGetGud/bsc/params"
 )
 
 const (
@@ -134,7 +134,7 @@ func (c *iavlMerkleProofValidateNano) Run(_ []byte) (result []byte, err error) {
 	return nil, fmt.Errorf("suspend")
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 type iavlMerkleProofValidateMoran struct {
 	basicIavlMerkleProofValidate
 }

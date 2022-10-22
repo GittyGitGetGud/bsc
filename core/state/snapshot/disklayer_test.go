@@ -22,13 +22,13 @@ import (
 	"os"
 	"testing"
 
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/core/rawdb"
+	"github.com/GittyGitGetGud/bsc/ethdb"
+	"github.com/GittyGitGetGud/bsc/ethdb/leveldb"
+	"github.com/GittyGitGetGud/bsc/ethdb/memorydb"
+	"github.com/GittyGitGetGud/bsc/rlp"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

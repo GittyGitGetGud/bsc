@@ -4,17 +4,17 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/consensus/clique"
+	"github.com/GittyGitGetGud/bsc/core"
+	"github.com/GittyGitGetGud/bsc/core/rawdb"
+	"github.com/GittyGitGetGud/bsc/core/types"
+	"github.com/GittyGitGetGud/bsc/core/vm"
+	"github.com/GittyGitGetGud/bsc/crypto"
+	"github.com/GittyGitGetGud/bsc/ethdb"
+	"github.com/GittyGitGetGud/bsc/p2p"
+	"github.com/GittyGitGetGud/bsc/p2p/enode"
+	"github.com/GittyGitGetGud/bsc/params"
 )
 
 var (

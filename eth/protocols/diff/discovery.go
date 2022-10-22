@@ -17,7 +17,7 @@
 package diff
 
 import (
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/GittyGitGetGud/bsc/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `diff` protocol on the discovery.

@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	vfc "github.com/ethereum/go-ethereum/les/vflux/client"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/core/types"
+	"github.com/GittyGitGetGud/bsc/crypto"
+	vfc "github.com/GittyGitGetGud/bsc/les/vflux/client"
+	"github.com/GittyGitGetGud/bsc/p2p/enode"
+	"github.com/GittyGitGetGud/bsc/rlp"
 )
 
 // Constants to match up protocol versions and messages

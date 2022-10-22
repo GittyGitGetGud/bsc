@@ -22,14 +22,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/protocols/diff"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/eth/protocols/trust"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/core"
+	"github.com/GittyGitGetGud/bsc/eth/downloader"
+	"github.com/GittyGitGetGud/bsc/eth/protocols/diff"
+	"github.com/GittyGitGetGud/bsc/eth/protocols/eth"
+	"github.com/GittyGitGetGud/bsc/eth/protocols/snap"
+	"github.com/GittyGitGetGud/bsc/eth/protocols/trust"
+	"github.com/GittyGitGetGud/bsc/p2p"
 )
 
 var (

@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/GittyGitGetGud/bsc/common"
+	"github.com/GittyGitGetGud/bsc/common/math"
+	"github.com/GittyGitGetGud/bsc/crypto"
+	"github.com/GittyGitGetGud/bsc/rlp"
 )
 
 var (
@@ -593,7 +593,7 @@ func (t *TransactionsByPriceAndNonce) CurrentSize() int {
 	return len(t.heads)
 }
 
-//Forward moves current transaction to be the one which is one index after tx
+// Forward moves current transaction to be the one which is one index after tx
 func (t *TransactionsByPriceAndNonce) Forward(tx *Transaction) {
 	if tx == nil {
 		if len(t.heads) > 0 {
